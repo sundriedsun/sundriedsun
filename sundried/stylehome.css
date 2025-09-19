@@ -1,0 +1,81 @@
+
+h1{
+    color:grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+
+    position:static;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+#character1{
+    border: 3px solid;
+    border-color:rgb(14, 14, 14);
+    height: 600px;
+    width: 600px;
+    background-color: rgb(52, 52, 52);
+
+    position: relative;
+
+    top: 25px;
+    left: 650px;
+}
+#character1 img{
+    border: 40px solid;
+    border-color: rgb(73, 73, 73);
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#border1{
+    border: 10px;
+    border-color: rgb(14, 14, 14);
+    height: 100px;
+    width: 4000px;
+    background-color: rgb(73, 73, 73);
+
+    position:fixed;
+
+    left: 0px;
+    top: 0px;
+
+    z-index: -1;
+
+}
+#xbutton1{
+    border: 5px;
+    border-color:rgb(14, 14, 14);
+    height: 70px;
+    width: 70px;
+    background-color: rgb(88, 88, 88);
+
+    position: relative;
+
+    top: -650px;
+    left: 620px;
+
+    font-size: 40px;
+    font-weight: bolder;
+    object-fit:contain;
+    color:rgb(225, 225, 225);
+}
+#begin{
+    border: 5px;
+    border-color:rgb(14, 14, 14);
+    height: 40px;
+    width: 70px;
+
+    position: relative;
+
+    top: -65;
+    left: 1280px;
+    
+}
+
+
